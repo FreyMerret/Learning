@@ -358,10 +358,43 @@ p a {
   border-radius: 7px;
   text-align: center;
   margin-top: 88px;
-  padding: 22px 0;
+  padding-bottom: 22px;
 
 }
 
 .speaker {
   margin-bottom: 40px;
+}
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+/*
+  ========================================
+  Изображения
+  ========================================
+*/
+
+.teaser img {
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
+
+/*
+  ========================================
+  Место проведения
+  ========================================
+*/
+
+.venue-theatre {
+  margin-bottom: 66px;
+}
+.venue-hotel {
+  margin-bottom: 22px;
 }
